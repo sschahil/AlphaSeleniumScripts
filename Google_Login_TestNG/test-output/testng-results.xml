@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25590" started-at="2017-07-30T08:50:53Z" finished-at="2017-07-30T08:51:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25590" started-at="2017-07-30T08:50:53Z" finished-at="2017-07-30T08:51:19Z">
+      <class name="LoginTestNg">
+        <test-method status="PASS" signature="loginSmokeMethod()[pri:-1, instance:LoginTestNg@6a2bcfcb]" name="loginSmokeMethod" duration-ms="14992" started-at="2017-07-30T01:50:53Z" description="Does a happy path test for logging into an email account that has been created" finished-at="2017-07-30T01:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSmokeMethod -->
+        <test-method status="PASS" signature="moreOption()[pri:0, instance:LoginTestNg@6a2bcfcb]" name="moreOption" duration-ms="4941" started-at="2017-07-30T01:51:08Z" finished-at="2017-07-30T01:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moreOption -->
+        <test-method status="PASS" signature="forgotEmail()[pri:1, instance:LoginTestNg@6a2bcfcb]" name="forgotEmail" duration-ms="5624" started-at="2017-07-30T01:51:13Z" finished-at="2017-07-30T01:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotEmail -->
+      </class> <!-- LoginTestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
