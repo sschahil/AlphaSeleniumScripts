@@ -5,7 +5,9 @@
     <classes>
       <class name="LoginTestNg">
         <methods>
-          <include name="loginSmokeMethod"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="sideBarTest"/>
         </methods>
       </class> <!-- LoginTestNg -->
     </classes>

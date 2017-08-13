@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25590" started-at="2017-07-30T08:50:53Z" finished-at="2017-07-30T08:51:19Z">
+  <suite name="Default suite" duration-ms="165969" started-at="2017-08-12T09:19:30Z" finished-at="2017-08-12T09:22:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25590" started-at="2017-07-30T08:50:53Z" finished-at="2017-07-30T08:51:19Z">
+    <test name="Default test" duration-ms="165969" started-at="2017-08-12T09:19:30Z" finished-at="2017-08-12T09:22:16Z">
       <class name="LoginTestNg">
-        <test-method status="PASS" signature="loginSmokeMethod()[pri:-1, instance:LoginTestNg@6a2bcfcb]" name="loginSmokeMethod" duration-ms="14992" started-at="2017-07-30T01:50:53Z" description="Does a happy path test for logging into an email account that has been created" finished-at="2017-07-30T01:51:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LoginTestNg@50c87b21]" name="setUp" is-config="true" duration-ms="110387" started-at="2017-08-12T02:19:30Z" finished-at="2017-08-12T02:21:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginSmokeMethod -->
-        <test-method status="PASS" signature="moreOption()[pri:0, instance:LoginTestNg@6a2bcfcb]" name="moreOption" duration-ms="4941" started-at="2017-07-30T01:51:08Z" finished-at="2017-07-30T01:51:13Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sideBarTest()[pri:1, instance:LoginTestNg@50c87b21]" name="sideBarTest" duration-ms="48199" started-at="2017-08-12T02:21:20Z" description="Testing for Side Bar functionality once logged into email" finished-at="2017-08-12T02:22:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- moreOption -->
-        <test-method status="PASS" signature="forgotEmail()[pri:1, instance:LoginTestNg@6a2bcfcb]" name="forgotEmail" duration-ms="5624" started-at="2017-07-30T01:51:13Z" finished-at="2017-07-30T01:51:19Z">
+        </test-method> <!-- sideBarTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:LoginTestNg@50c87b21]" name="quit" is-config="true" duration-ms="7286" started-at="2017-08-12T02:22:09Z" finished-at="2017-08-12T02:22:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- forgotEmail -->
+        </test-method> <!-- quit -->
       </class> <!-- LoginTestNg -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
